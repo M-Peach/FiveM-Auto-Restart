@@ -12,3 +12,10 @@ Currently uses delays to determine restarts. Future plans to use os time to spec
 3) Open Reboot_1.bat AND Reboot_2.bat in your editor of choice.
 4) In Reboot_1.bat navigate to line 15 and line 23, edit these numbers to fit the amount of time before each restart. (Default is 8 Hours)(You may also edit the SERVER NAME)
 5) In Reboot_2.bat navigate to line 14 and make sure the .bat file name matches your current start.bat (You may also change the SERVER NAME)
+
+CHEAT SHEET:
+7200000  = 2 Hours
+10800000 = 3 Hours
+14400000 = 4 Hours
+18000000 = 5 Hours
+21600000 = 6 Hours
