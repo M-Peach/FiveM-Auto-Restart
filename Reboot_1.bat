@@ -11,16 +11,16 @@ echo --------------------------------------
 echo Current Time: %time%
 
 
-REM Below is a delay for 4 hours in milliseconds. Change this value if needed. 
-timeout /t 14400000 >null
+REM Below is a delay for 4 hours in SECONDS. Change this value if needed. 
+timeout /t 14400 >null
 
 echo --------------------------------------
 echo   Restarting SERVER NAME in 4 Hours
 echo --------------------------------------
 echo Current Time: %time%
 
-REM Below is a delay for 4 hours in milliseconds. Change this value if needed.
-timeout /t 14400000 >null
+REM Below is a delay for 4 hours in SECONDS. Change this value if needed.
+timeout /t 14400 >null
 
 echo --------------------------------------
 echo     KILLING SERVER IN 10 SECONDS
@@ -53,6 +53,8 @@ echo         111111
 timeout /t 1 >null
 
 taskkill /f /im FXServer.exe
+
+REM Total restart time is 8 Hours 10 Seconds. Adjust line 23 if you would like 8 Hours exact.
 
 echo --------------------------------------
 echo    SERVER DEAD - REBOOT STARTING
