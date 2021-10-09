@@ -14,8 +14,8 @@ Currently uses delays to determine restarts. Future plans to use os time to spec
 5) In Reboot_2.bat navigate to line 14 and make sure the .bat file name matches your current start.bat (You may also change the SERVER NAME)
 
 CHEAT SHEET:
-7200000  = 2 Hours
-10800000 = 3 Hours
-14400000 = 4 Hours
-18000000 = 5 Hours
-21600000 = 6 Hours
+7200  = 2 Hours
+10800 = 3 Hours
+14400 = 4 Hours
+18000 = 5 Hours
+21600 = 6 Hours
